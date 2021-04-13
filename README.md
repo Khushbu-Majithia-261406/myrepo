@@ -6,3 +6,5 @@
 
 git-inspector
 [![Code Grade](<BADGE-LINK>)](https://www.code-inspector.com/project/21204/status/svg)
+
+https://www.code-inspector.com/project/21204/score/svg
