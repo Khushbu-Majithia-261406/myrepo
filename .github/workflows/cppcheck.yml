@@ -2,9 +2,9 @@ name: Code Quality - Static Code - Cppcheck
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   cppcheck:
@@ -16,4 +16,4 @@ jobs:
     - name: Install cppcheck
       run: sudo apt -y install cppcheck
     - name: Run cppcheck
-      run: cppcheck myrepo
+      run: cppcheck Implementation
