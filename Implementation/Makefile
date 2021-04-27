@@ -9,8 +9,11 @@ INC = -Iunity\
 
 PROJECT_NAME = sum.exe
 
+EXEC=exe
+
 all: $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+	
+	gcc $(SRC) $(INC) -o $(call FixPath, $(PROJECT_NAME).$(EXEC))
 
 run:$(PROJECT_NAME)
 	./${PROJECT_NAME}
