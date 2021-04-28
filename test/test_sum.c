@@ -22,12 +22,12 @@ void test_sum3(void)
 
 void test_sum4(void)
 { 
-   TEST_ASSERT_EQUAL(-3, sum(-5,2));
+  TEST_ASSERT_EQUAL(-3, sum(-5,2));
 }
 
 void test_sum5(void)
 {
-    TEST_ASSERT_EQUAL(-3, sum(2,-5));
+   TEST_ASSERT_EQUAL(-3, sum(2,-5));
 }
 
 
