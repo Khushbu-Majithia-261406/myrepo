@@ -14,3 +14,6 @@ https://www.code-inspector.com/project/21204/score/svg
 [![C/C++ CI](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml)
 
 [![C/C++ CI - Build Status](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml)
+
+
+[![Code Quality - Static Code - Cppcheck](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/cppcheck.yml)
