@@ -59,5 +59,10 @@ clean:
 $(BUILD):
 	mkdir build
 
+coverage:${PROJECT_NAME}
+	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(PROJECT_NAME)
+	./${PROJECT_NAME}
+	gcov -a src/sum.c main.c
+
 
 
