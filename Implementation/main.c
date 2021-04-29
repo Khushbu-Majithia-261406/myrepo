@@ -1,4 +1,4 @@
-#include "test_sum.h"
+#include<stdio.h>
 
 int main(void)
 {
