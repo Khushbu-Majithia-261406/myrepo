@@ -4,14 +4,15 @@
 * @return summation of the 2 nos
 */
 
-#ifndef __SUM_H__
+
+#include<stdio.h>
 
 int sum(int number1, int number2);
 
-#endif  /* #ifndef __SUM_H__  */
 
 
-#include<stdio.h>
+
+
 
 /*return sum of the 2 nos*/
 
