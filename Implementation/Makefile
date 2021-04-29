@@ -33,7 +33,7 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:
-	cp test/test.c .
+	cp test/test_sum.c .
 	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test_sum.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
