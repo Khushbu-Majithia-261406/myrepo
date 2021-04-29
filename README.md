@@ -21,3 +21,5 @@ https://www.code-inspector.com/project/21204/score/svg
 [![C/C++ CI - Build Status](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/c-build.yml)
 
 [![unit Testing - Unity](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/unity.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/unity.yml)
+
+[![CI-Coverage](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/coverage.yml/badge.svg)](https://github.com/Khushbu-Majithia-261406/myrepo/actions/workflows/coverage.yml)
