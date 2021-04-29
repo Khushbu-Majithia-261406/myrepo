@@ -1,6 +1,8 @@
 # Name of the project
 PROJECT_NAME = Sum
 
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
 # Output directory
 BUILD = build
 
@@ -46,10 +48,11 @@ run:$(PROJECT_NAME)
 doc:
 	make -C ./documentation
 
-# Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
+
+	
+test:
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 # Remove all the built files, invoke by `make clean`
 clean:
