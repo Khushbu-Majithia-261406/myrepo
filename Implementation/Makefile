@@ -7,6 +7,7 @@ COV_SRC = test_sum.c
 
 TEST_SRC = test/test_sum.c \
 unity/unity.c 
+
 INC_H = inc
 INC_T = unity
 
@@ -51,8 +52,6 @@ debug:
 	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
 	gdb $(PROJ_NAME).$(EXEC)
 
-valgrind:
-	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
 
 
 clean:
